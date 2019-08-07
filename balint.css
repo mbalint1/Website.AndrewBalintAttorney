@@ -1,0 +1,489 @@
+body {		
+	background: #9B9999;
+	background-image: radial-gradient(ellipse farthest-corner at left center, #FFFFFF 0%, #5C4B57 100%);
+}
+
+h1 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	text-decoration: underline;
+}
+	 
+h2 { 
+	font-weight: bold;
+	font-family: Papyrus, fantasy;
+	text-decoration: underline;
+}
+
+h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+ul {
+    padding: .5px;
+    list-style-type: circle;
+}
+
+img.center {
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+hr {
+  	background: black; 
+	clear: both; 
+ 	float: none; 
+        width: 100%; 
+ 	height: 2px;
+ 	margin: 0 0 1.4em;
+	border: none; 
+}	
+
+label {
+   	 font-family: Arial, Verdana;
+  	 text-shadow: 2px 2px 2px #ccc;
+	 display: block;
+	 float: left;
+	 font-weight: bold;
+	 margin-right:10px;
+	 text-align: right;
+	 width: 120px;
+    	 line-height: 25px;
+   	 font-size: 15px;
+}
+
+#menu a:link,a:visited {
+	font-weight:bold;
+	display:inline-block;
+	color:black;
+	width:120px;
+	text-decoration:none;
+}
+	
+#menu a:hover,a:active {
+	background-color: #C9C8E6;
+}
+
+#menu p {
+	text-align: center;
+}
+
+#homecontent { 
+	height: 23em;
+	width: 55em;
+	border-width:5px;	
+	border-radius: 30px;
+	border: solid black;
+	background-image:url('images/contentbackground.jpg');
+	margin-left: auto;
+	margin-right: auto;
+}	
+
+#left {
+	position: fixed;
+	left: -1.8em;
+	top: 20em;
+}
+
+#footer p {
+	text-align: center;
+}
+
+#footer a {
+	text-decoration: none;
+}
+
+#map_canvas {
+        width: 375px;
+        height: 300px;
+	background-color: #CCC;
+	position: relative;
+	top: -170px;
+	left: 390px;
+	border: 1px solid;
+}
+
+#maptext {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	position: relative;
+	left: 50px;
+	top: 30px;
+	line-height: 25px;
+}
+
+#maptext h1 {
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+#textbox {
+	background: #D7D3D3;
+	background: rgba(255,255,255,0.5);
+	border: 1px solid #616261; -webkit-border-radius: 30px; -moz-border-radius: 30px;border-radius: 30px;
+	height: 10em;
+	width: 24em;
+	float: left;
+	margin-top: 9em;
+	margin-left: 1em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 115%;
+	font-style: italic;
+}
+
+#contactform {     	
+	height: 20em;
+	width: 30em;
+	position: relative;
+	top: -150px;
+	left: 355px;
+}
+
+#contact_h3 {
+	position: relative;
+	top: -30px;
+	left: 0px;
+	font-weight: bold;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	text-decoration: underline;
+	margin-right: 1.5em;
+}
+#contacth3 {
+	position: relative;
+	top: -15px;
+	left: -350px;
+	text-decoration: underline;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+#contact_text {
+	position: relative;
+	left: 100px;
+	top: 50px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	line-height: 25px;
+}
+
+#andy_photo {
+	border: 2px solid;
+	margin-left: 1em;
+}
+
+#bob_photo {
+	border: 2px solid;
+	position: relative;
+	top: 345px;
+	left: -260px;
+}
+
+#andy_bio {
+	height: 25em;
+	width: 55em;
+}
+
+#bob_bio {
+	height: 35em;
+	width: 55em;
+	position: relative;
+	top: -370px;
+	left: 0px;
+}
+#bio_text {
+	position: relative;
+	left: 275px;
+	top: -330px;
+}
+
+#bio_content {
+	height: 60em;
+	width: 56em;
+	background-color: #C4C3C8;
+	border: 2px solid; /* IE<9 */ 
+        -moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 5px 5px black;
+	-webkit-box-shadow: 0 0 5px 5px black;
+	box-shadow: 0 0 5px 5px black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bio_h3 {
+	text-align: left;
+	margin-left: 1.2em;
+}
+
+#bob_h3 {
+	text-align: left;
+	position: relative;
+	top: 350px;
+	left: -240px;
+}
+#practice_h1 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+#practice_content {
+	height: 35em;
+	width: 55em;
+	background-color: #C4C3C8;
+	border: 2px solid; */ IE<9 */
+        -moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 5px 5px black;
+	-webkit-box-shadow: 0 0 5px 5px black;
+	box-shadow: 0 0 5px 5px black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#home {
+	position: relative;
+	top: 50px;
+	left: 20px;
+	border: 1px solid;
+}
+
+#business {
+	position: relative;
+	top: -268px;
+	left: 438px;
+	border: 1px solid;
+}
+
+#family {
+	position: relative;
+	top: -370px;
+	left: 20px;
+	border: 1px solid;
+}
+
+#elderly {
+	position: relative;
+	top: -690px;
+	left: 440px;
+	border: 1px solid;
+}
+
+#building {
+	position: relative;
+	top: -465px;
+	left: 490px;
+	border: 2px solid;
+}
+
+#firm_content {
+	height: 32em;
+	width: 56em;
+	background-color: #C4C3C8;
+	border: 2px solid; /* IE<9 */
+        -moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 5px 5px black;
+	-webkit-box-shadow: 0 0 5px 5px black;
+	box-shadow: 0 0 5px 5px black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#firm_h1 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-weight: bold;
+	text-decoration: underline;
+	display: inline;
+	font-size: 160%;
+	padding-left: 5px;
+}
+
+#phone_h1 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-weight: bold;
+	text-decoration: underline;
+	display: inline;
+	font-size: 160%;
+	position: relative;
+	top: 0px;
+	left: 175px;
+}
+
+#history {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	padding-left: 5px;
+}
+
+#real_estate_ul {
+	position: relative;
+	top: -140px;
+	left: 250px;
+	font-weight: bold;
+	list-style-type: circle;
+}
+
+#real_estate_h2 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	position: relative;
+	top: -130px;
+	left: 250px;
+}
+
+#business_ul {
+	position: relative;
+	top: -453px;
+	left: 665px;
+	font-weight: bold;
+	list-style-type: circle;
+}
+
+#business_h2 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	position: relative;
+	top: -445px;
+	left: 663px;
+}
+
+#family_ul {
+	position: relative;
+	top: -555px;
+	left: 250px;
+	font-weight: bold;
+	list-style-type: circle;
+}
+
+#family_h2 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	position: relative;
+	top: -545px;
+	left: 250px;
+}
+
+#elder_ul {
+	position: relative;
+	top: -875px;
+	left: 670px;
+	font-weight: bold;
+	list-style-type: circle;
+}
+
+#elder_h2 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	position: relative;
+	top: -865px;
+	left: 668px;
+}
+
+#thankyou_h1 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	text-align: center;
+}
+
+.bio_header {
+	font-style: italic;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.bio_hr {
+	background-color: #761515;
+	width: 35em;
+	margin-right: 30em;
+}
+
+.bold { 
+	font-weight: bold;
+}
+.content {
+	height: 23em;
+	width: 55em;
+	background-color: #C4C3C8;
+	border: 2px solid; /* IE<9 */ 
+        -moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 5px 5px black;
+	-webkit-box-shadow: 0 0 5px 5px black;
+	box-shadow: 0 0 5px 5px black;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+.button {
+	 width: 90px;	 
+	 height: 40px;
+	 border:1px solid #616261; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:18px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+	 background-color: #7d7e7d; background-image: -webkit-gradient(linear, left top, left bottom, from(#7d7e7d), to(#0e0e0e));
+	 background-image: -webkit-linear-gradient(top, #7d7e7d, #0e0e0e);
+	 background-image: -moz-linear-gradient(top, #7d7e7d, #0e0e0e);
+	 background-image: -ms-linear-gradient(top, #7d7e7d, #0e0e0e);
+	 background-image: -o-linear-gradient(top, #7d7e7d, #0e0e0e);
+	 background-image: linear-gradient(to bottom, #7d7e7d, #0e0e0e);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7d7e7d, endColorstr=#0e0e0e);
+	 cursor: pointer; 
+	-moz-transform: rotate(-90deg);  /* FF3.5/3.6 */
+	-o-transform: rotate(-90deg);  /* Opera 10.5 */
+	-webkit-transform: rotate(-90deg);  /* Saf3.1+ */
+	transform: rotate(-90deg);  /* Newer browsers (incl IE9) */
+}
+
+.button:hover {
+        border:1px solid #4a4b4a;
+ 	background-color: #646464; background-image: -webkit-gradient(linear, left top, left bottom, from(#646464), to(#282828));
+  	background-image: -webkit-linear-gradient(top, #646464, #282828);
+ 	background-image: -moz-linear-gradient(top, #646464, #282828);
+ 	background-image: -ms-linear-gradient(top, #646464, #282828);
+ 	background-image: -o-linear-gradient(top, #646464, #282828);
+ 	background-image: linear-gradient(to bottom, #646464, #282828);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#646464, endColorstr=#282828);
+}
+
+.input {
+ 	 font-family: Arial, Verdana;
+ 	 font-size: 15px;
+ 	 padding: 5px;
+ 	 border: 1px solid #b9bdc1;
+ 	 width: 300px;
+ 	 color: #797979;
+}
+
+.hint {
+    	 display:none;
+}
+
+.field:hover .hint {
+   	 position: absolute;
+   	 display: block;
+   	 margin: -30px 0 0 455px;
+   	 color: #FFFFFF;
+   	 padding: 7px 10px;
+   	 background: rgba(0, 0, 0, 0.6);
+ 
+ 	 -moz-border-radius: 7px;
+ 	 -webkit-border-radius: 7px;
+ 	 border-radius: 7px;
+}
+
+.formbutton {
+   	 float: right;
+   	 margin:10px 350px 10px 0;
+   	 font-weight: bold;
+   	 line-height: 1;
+   	 padding: 6px 10px;
+  	 cursor:pointer;
+ 
+ 	 text-align: center;
+ 	 text-shadow: 0 -1px 1px #64799e;
+ 	
+ 	 border:1px solid #616261; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:18px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+	 background-color: #7d7e7d; background-image: -webkit-gradient(linear, left top, left bottom, from(#7d7e7d), to(#0e0e0e));
+	 background-image: -webkit-linear-gradient(top, #7d7e7d, #0e0e0e);
+	 background-image: -moz-linear-gradient(top, #7d7e7d, #0e0e0e);
+	 background-image: -ms-linear-gradient(top, #7d7e7d, #0e0e0e);
+	 background-image: -o-linear-gradient(top, #7d7e7d, #0e0e0e);
+	 background-image: linear-gradient(to bottom, #7d7e7d, #0e0e0e);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7d7e7d, endColorstr=#0e0e0e);
+}
+
+.underline { 
+	text-decoration: underline;
+}

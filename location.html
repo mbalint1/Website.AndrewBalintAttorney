@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="tulsa oklahoma lawfirm, okmulgee lawfirm, oklahoma lawfirm, tulsa attorney , okmulgee attorney, tulsa lawyer, okmulgee lawyer, attorney">
+<meta name="description" content="Lawfirm serving Tulsa and Okmulgee Oklahoma">
+<title>Located In Downtown Okmulgee</title>
+<link type="text/css" rel="stylesheet" href="balint.css">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script>
+<!--Beginning mapJava-->
+      function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var myLatlng = new google.maps.LatLng(35.623717,-95.97183);
+	var map_options = {
+          center: new google.maps.LatLng(35.623717,-95.97183),
+          zoom: 16,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+
+	var marker = new google.maps.Marker ({ 
+	  position: myLatlng,
+	  map: map,
+	  title: 'Our Firm'
+	});
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+<!--End mapJava-->
+</script>
+</head>
+<body>
+  <div id="header">
+    <img src="images/newlogo4.png" alt="logo" class="center"/>
+  </div>
+<hr>
+  <div id="menu">
+    <p><a href="firm.html">Firm </a><a href="practice.html"> Practice Areas </a><a href="bio.html"> Bio </a><a href="contact.html"> Contact Us</a><a href="location.html"> Location </a></p>
+  </div>
+  <div id="left">
+    <button class="button" type="button" onclick="location.href='index.html'">Home</button>
+  </div>
+  <div class="content">
+    <div id="maptext">
+      <h1>General Information</h1>
+      <p>
+	Andrew Balint Attorney PLLC<br>
+	114 N. Grand, Suite 408<br>
+	Okmulgee, OK 74447<br>
+	(918) 756-5274<br>
+	Fax (918) 756-0502
+      </p>
+    </div>
+    <div id="map_canvas">
+    </div>
+  </div>
+  <div id="footer">
+    <p><a href="index.html"> Home | </a><a href="firm.html">Firm | </a><a href="practice.html"> Practice Areas | </a><a href="bio.html"> Bio | </a><a href="contact.html"> Contact Us | </a><a href="location.html"> Location </a></p>
+  </div>
+</body>
+</html>
